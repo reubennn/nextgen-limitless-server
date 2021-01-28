@@ -1,6 +1,9 @@
 # LinkedIn Learning files
 ~LL*files
 
+# Secret environment file
+secrets.env
+
 # Logs
 logs
 *.log
