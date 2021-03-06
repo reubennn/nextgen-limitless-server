@@ -10,7 +10,6 @@
     "db-setup": "npm run db-setup:articles && npm run db-setup:comments",
     "db-setup:articles": "babel-node db-setup/addArticlesToDB.js",
     "db-setup:comments": "babel-node db-setup/addCommentsToDB.js",
-    "build": "cd ../client && npx webpack --config webpack.prod.js --watch",
     "customize:login": "babel-node src/auth/customizeLogin.js",
     "customize:signup": "babel-node src/auth/customizeSignup.js"
   },
