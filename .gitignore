@@ -92,7 +92,6 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
-build
 
 # Gatsby files
 .cache/
@@ -128,5 +127,6 @@ build
 # Server .gitignore
 server/*.gitignore
 
-# Confidential data
-secrets.env
+# Production files
+build/
+bundle.*
