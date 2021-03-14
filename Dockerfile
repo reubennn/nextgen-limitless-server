@@ -15,9 +15,7 @@ RUN npm install
 COPY . .
 
 # npm script to transpile code with Babel and create production build.
-RUN npm run build:src
-RUN npm run build:config
-RUN npm run build:react-app
+RUN npm run build:docker
 
 # Remove all development dependencies.
 RUN npm prune --production
