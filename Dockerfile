@@ -29,7 +29,6 @@ FROM base AS release
 COPY --from=builder /nextgenlimitless/node_modules ./node_modules
 COPY --from=builder /nextgenlimitless/dist ./dist
 COPY --from=builder /nextgenlimitless/config ./config
-COPY --from=builder /nextgenlimitless/public ./public
 
 # Run the Docker container as less-privileged `node` user.
 USER node
