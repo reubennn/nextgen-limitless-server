@@ -6,6 +6,7 @@ temp/
 
 # Secret environment file
 secrets.env
+secrets.prod.env
 
 # Logs
 logs
